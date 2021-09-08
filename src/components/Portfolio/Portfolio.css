@@ -1,0 +1,17 @@
+#portfolio-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+#portfolio-container h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#projects-container{
+    width: 100%;
+}

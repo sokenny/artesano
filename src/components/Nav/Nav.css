@@ -1,0 +1,20 @@
+nav{
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    font-weight: bolder;
+    color: #424242;
+    /* padding: 25px 0; */
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* margin-bottom: 20px; */
+    /* transition: .1s; */
+}
+
+nav div:hover{
+    color: white;
+    cursor: pointer;
+}

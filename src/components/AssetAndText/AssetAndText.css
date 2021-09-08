@@ -1,0 +1,26 @@
+.a-asset:hover{
+    transform: scale(1.02);   
+}
+
+.a-asset img{
+    border-radius: 5px;
+}
+
+@media (max-width: 700px) {
+
+    .asset-and-text{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .a-text{
+        width: 100%;
+        font-size: .8em;
+    }
+
+    .a-asset{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+}

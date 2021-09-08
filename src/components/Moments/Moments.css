@@ -1,0 +1,31 @@
+#moments-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#moments-container h3{
+    text-transform: uppercase;
+}
+
+#array{
+    display: flex;
+    max-width: 100%;
+    /* overflow-x: scroll; */
+    justify-content: center;
+}
+
+#array>div{
+    display: flex;
+    overflow-x: scroll;
+    padding: 0 0px 20px 0px;
+}
+
+@media (max-width: 700px) {
+
+    #moments-container h3{
+        text-align: center;
+    }
+
+}

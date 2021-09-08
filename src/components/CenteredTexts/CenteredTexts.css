@@ -1,0 +1,43 @@
+.ct-title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.centered-texts-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.ct-container{
+    /* width: 30%; */
+    transition: .5s;
+}
+
+.only_one{
+    justify-content: center!important;
+}
+
+
+@media (max-width: 700px) {
+
+    .centered-texts-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ct-container{
+        width: 100%!important;
+        margin-bottom: 12px;
+    }
+
+    .ct-title{
+        margin-bottom: 0;
+        font-size: .8em;
+    }
+
+    .ct-des{
+        font-size: .8em;
+    }
+
+}

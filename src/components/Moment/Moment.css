@@ -1,0 +1,11 @@
+.moment{
+    min-width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.moment:last-child{
+    margin-right: 0;
+}

@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #131313;
+  padding: 0 20% 5% 20%;
+  color: white;
+  font-family: Space Mono;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #000000; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #000000; /* Gecko Browsers */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.big-section{
+  margin-bottom: 90px;
+}
+
+h3{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align-last: center;
+  /* text-transform: lowercase; */
+}
+
+/* Clases para los proyectos */
+:root {
+  --mytaggie-light: #9401fd;
+  --mytaggie-dark: #590099;
+  --mytaggie: #7600cb;
+
+  --atom8-light: #e846b2;
+  --atom8-dark: #91105a;
+  --atom8: #d6197a;
+
+  --cryptocenter-light: #df870c;
+  --cryptocenter-dark: #b66a00;
+  --cryptocenter: #b66a00;
+
+  --fluxq-light: #58809b;
+  --fluxq-dark: #3c6580;
+  --fluxq: #4b8cb3;
+
+  --path-light: #374780;
+  --path-dark: #242E50;
+  --path: #004969;
+}
+
+.mytaggie .pr-view{
+  
+}
+
+a { color: inherit; text-decoration: none; } 
+
+
+.mytaggie .pr-view:hover{
+  color: #9401fd;
+  border-bottom: 2px solid #9401fd;
+}
+
+.cryptocenter .pr-view:hover{
+  color: #df870c;
+  border-bottom: 2px solid #df870c;
+}
+
+.atom8 .pr-view:hover{
+  color: #d6197a;
+  border-bottom: 2px solid #d6197a;
+}
+
+.fluxq .pr-view:hover{
+  color: #3c6580;
+  border-bottom: 2px solid #3c6580;
+}
+
+.path .pr-view:hover{
+  color: var(--path-light);
+  border-bottom: 2px solid var(--path-light);
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  /* box-shadow: inset 0 0 6px rgba(255, 255, 255, 1); */
+  background-color: white;
+}
+
+img{-webkit-user-drag: none;}
+
+.asset-and-text{
+  display: flex;
+  justify-content: space-between;
+}
+
+.a-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+}
+
+.a-asset{
+  width: 62%;
+  transition: .15s ease-in-out;
+}
+
+.at-title{
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ct-title, .at-title{
+  margin-bottom: 15px;
+}
+
+.double-asset>div img{
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.hidden-down{
+  transform: translateY(40px);
+  opacity: 0;
+}
+
+.scaled-down{
+  transform: scale(.5);
+  opacity: 0;
+}
+
+.shrink{
+  transform: scale(.3);
+  opacity: 0;
+}
+
+.single-asset img{
+  max-width: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.single-asset{
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 0 6% 6% 6%;
+  }
+
+  nav{
+    /* margin-bottom: -25px; */
+  }
+
+  .big-section{
+    margin-bottom: 65px;
+  }
+
+  h3{
+    margin-bottom: 20px;
+  }
+
+  .ct-title, .at-title{
+    margin-bottom: 5px;
+  }
+
+
+}
+
+@media (min-width: 1700px) {
+  body {
+    padding: 2% 27%;
+  }
+}

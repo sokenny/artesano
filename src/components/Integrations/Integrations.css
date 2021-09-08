@@ -1,0 +1,51 @@
+#integrations-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.integrations{
+    display: flex;
+    justify-content: space-between;
+}
+
+.integration{
+    /* border: 1px solid white; */
+    padding: 10px 20px;
+    display: flex;
+    /* border-radius: 60px; */
+}
+
+.int-name{
+    font-weight: bold;
+    font-size: .9em;
+}
+
+.int-des{
+    font-size: .75em;
+}
+
+.int-img{
+    margin-right: 15px;
+}
+
+.int-img img{
+    border-radius: 20px;
+    border: 1px solid white;
+    transition: .75s;
+}
+
+.spin{
+    transform: rotateY(360deg);
+}
+
+@media (max-width: 700px) {
+    .integration{
+        width: 100%!important;
+    }
+
+    .integrations{
+        flex-direction: column;
+    }
+}
